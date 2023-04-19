@@ -1,0 +1,28 @@
+{
+  "name": "shellbrowser",
+  "version": "1.0.0",
+  "description": "一款支持UDP、TCP、WebSocket、串口通信、Http的浏览器",
+  "main": "myapp.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "dev": "electron ."
+  },
+  "author": "lanslot",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electron": "^24.1.2"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "log4js": "^6.9.1",
+    "serialport": "^10.5.0",
+    "ws": "^8.13.0"
+  }
+}
